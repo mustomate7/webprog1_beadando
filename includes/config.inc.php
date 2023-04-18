@@ -24,7 +24,8 @@ $oldalak = array(
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0,1)),
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0,0)),
     'regisztral' => array('fajl' => 'regisztral', 'szoveg' => '', 'menun' => array(0,0)),
-    'message' => array('fajl' => 'message', 'szoveg' => '', 'menun' => array(1,1))
+    'message' => array('fajl' => 'message', 'szoveg' => '', 'menun' => array(1,1)),
+    'allmessages' => array('fajl' => 'allmessages', 'szoveg' => 'Üzenetek', 'menun' => array(1,1))
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
