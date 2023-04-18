@@ -1,7 +1,6 @@
 <div class="container-sm">
-    <div class="row justify-content-center">
     <h1 class="display-3">Elérhetőségünk:</h1>
-    <div class="row align-items-start">
+    <div class="row pad-bot-30">
       <div class="col-sm-4">
         <span class="contact justify-content-start">
             <ul>
@@ -17,6 +16,19 @@
         <a href="https://goo.gl/maps/Cv1QTwzrWHu74Yp48" target="_blank"> Nyitsd meg Google Maps-ben</a>
     </div>
     </div>
+    <div class="pad-bot-30"></div>
+    <h1 class="display-3 pad-bot-30">Küldjön üzenetet!</h1>
+    <div class="row">
+        <div class="col">
+            <form action= "?oldal=message" method="post" id="msgForm">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Üzenet:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="message"></textarea>
+                    </div>
+                    <input type="submit" name="send" value="Küldés">     
+            </form>
+        </div>
     </div>
-  </div>
+</div>
+</div>
 
