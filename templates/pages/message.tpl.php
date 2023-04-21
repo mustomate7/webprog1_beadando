@@ -1,7 +1,7 @@
 <?php
     if(isset($isSent)){ ?>
-        <h1><?= $response ?></h1>
-
+        <?= $response ?>
+            <br><br>
             <?php if(!$isSent){ ?>
                    <a href="index.php?oldal=kapcsolat">Próbálja újra!</a>
             <?php } else { ?>
