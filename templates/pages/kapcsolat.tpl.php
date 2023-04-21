@@ -22,10 +22,11 @@
         <div class="col">
             <form action= "?oldal=message" method="post" id="msgForm">
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Üzenet:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="message"></textarea>
+                        <label for="label_uzenet" class="form-label">Üzenet:</label>
+                        <textarea class="form-control" id="inputArea_uezenet" rows="8" name="message" oninput="msgLenWarn()"></textarea>
                     </div>
-                    <input type="submit" name="send" value="Küldés">     
+                    
+                    <input type="submit" name="send" value="Küldés"> <span id="msgLenWarn"></span>
             </form>
         </div>
     </div>
