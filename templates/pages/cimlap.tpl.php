@@ -54,7 +54,14 @@
             Az elkészült vázrajzhoz első lépésként pontos, a legapróbb részletekre is kitérő költségvetést készítünk, hogy a családi ház építésébe nyugodtan vághasson bele minden megrendelőnk! A házépítés az első és egyik legfontosabb lépése a pénzügyi lehetőségek pontos felmérése. A költségek ismeretében, amennyiben igényli, tapasztalt hitelügyintézőnk tud segítséget nyújtani abban, hogy felmérje a megrendelőnk anyagi kereteit, lehetőségeit, illetve igény esetén segítse őket a banki és egyéb hitelintézetek sokszor nem egyszerű világában eligazodni.
         </div>
         <div class="col-7">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rz_hxPNkFbA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div style="text-align:center"> 
+            <button class="btn btn-dark" onclick="playPause()">Play/Pause</button> 
+            <br><br>
+            <video id="sajat_video" width="560" autoplay muted>
+                <source src="./videos/sajat.mp4" type="video/mp4">
+                Az Ön böngészője nem támogatja a videót.
+            </video>
+            </div> 
         </div>
     </div>
 </div>
