@@ -1,9 +1,11 @@
 <?php 
 if(isset($_POST['message']) ){
-    if(isset($_SESSION['csn']) && isset($_SESSION['un'])){
-        $userName = $_SESSION['csn'] . ' ' . $_SESSION['un'];
+    if(isset($_SESSION['login'])){
+        $userName = $_SESSION['login'];
+        $name = $_SESSION['csn'] . ' ' . $_SESSION['un'];
     }else{
         $userName = 'Vendég';
+        $name = 'Vendég';
     }
 
     if( strlen($_POST['message']) < 5 ){
@@ -19,7 +21,7 @@ if(isset($_POST['message']) ){
             $stmt->execute(array(':userName' => $userName, ':message' => $_POST['message'], ':eventDateTime' => date("Y-m-d H:i:s")));
 
             if($count = $stmt->rowCount()){
-                $response = 'az Ön üzenete :<br>' . $_POST['message'] . '<br>' . $userName .' névvel sikeresen elküldve.<br>' . date("Y-m-d H:i:s");
+                $response = 'Tisztelt '. $name .', az Ön üzenete :<br>' . $_POST['message'] . '<br>' . 'sikeresen elküldve.<br>' . date("Y-m-d H:i:s");
                 $isSent = true;
             } else {
                 $response = "sikertelen küldés kérem próbálj újra";
