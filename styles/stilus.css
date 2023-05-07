@@ -52,7 +52,6 @@ div#content {
 }
 
 div#content img{
-    float: right;
     width: 20em;
     height: auto;
     margin: 0 0 15px 15px;

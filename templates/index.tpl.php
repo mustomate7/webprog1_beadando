@@ -13,10 +13,16 @@
 </head>
 <body>
 			<header>
-				<img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>">
-				<h1><?= $fejlec['cim'] ?></h1>
-				<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
-				<?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?>
+				<div class="row">
+					<div class="col-6">
+						<img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>">
+						<h1><?= $fejlec['cim'] ?></h1>
+						<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
+					</div>
+					<div class="col-6 text-end">
+						<?php if(isset($_SESSION['login'])) { ?><h4>Bejelentkezve:</h4> <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?>
+					</div>
+				</div>
 			</header>
 
         
@@ -32,13 +38,13 @@
                 </ul>
             </nav>
 			
-			
+			<div class="container-fluid">
   				<div class="row align-items-start">
 					<div id="content">
 						<?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
 					</div>
 				</div>
-  			
+			</div>
 			
 
 			<footer class="justify-content-center">

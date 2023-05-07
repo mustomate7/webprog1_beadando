@@ -1,6 +1,6 @@
 
 <h1 class="display-3">Megépítjük álmai otthonát!</h1>
-<div class="container justify-content-center">
+<div class="container justify-content-center mt-4">
 
     <div class="row">
         <div class="col-5">
@@ -17,7 +17,7 @@
 </div>
     
 <h1 class="display-3">A csomag tartalma:</h1>
-<div class="container">
+<div class="container mt-4">
 
     <div class="row">
         <div class="col-5">
@@ -46,7 +46,7 @@
 </div>
 
 <h1 class="display-3">Mire Kell odafigyelnie?</h1>
-<div class="container">
+<div class="container mt-4">
 
     <div class="row">
         
