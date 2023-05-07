@@ -21,6 +21,10 @@ SET time_zone = "+00:00";
 -- Database: `webprog`
 --
 
+CREATE DATABASE `webprog`;
+
+USE `webprog`;
+
 -- --------------------------------------------------------
 
 --

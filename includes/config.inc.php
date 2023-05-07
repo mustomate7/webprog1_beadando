@@ -37,4 +37,14 @@ $dbh = new PDO('mysql:host=localhost;dbname=webprog', 'root', '',
 } catch (PDOException $e) {
     $errormessage = "Hiba: ".$e->getMessage();
 }
+
+
+
+    $MAPPA = './feltoltesek/';
+    $TIPUSOK = array ('.jpg', '.png');
+    $MEDIATIPUSOK = array('image/jpeg', 'image/png');
+    $DATUMFORMA = "Y.m.d. H:i";
+    $MAXMERET = 500*1024;
+
+
 ?>
