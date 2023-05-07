@@ -3,15 +3,15 @@
 <div class="container justify-content-center mt-4">
 
     <div class="row">
-        <div class="col-5">
+        <div class="col-lg-5">
             
             Cégünk az otthonuk megvalósításában már a tervezéstől egészen a kulcsátadásig minden munkafolyamatot koordinál, végrehajt, levéve ezzel némi terhet az Önök válláról. Ügyfeleink minden felmerülő költségről, a munkafolyamatokról, részletes tájékoztatást kapnak, vagyis az általunk elkészített árajánlatban szereplő végösszegen felül, nem kell rejtett költségektől tartaniuk.
             A lehetőségek tárháza kimeríthetetlen. Többféle alaprajz "minta" áll rendelkezésünkre, melyeket Ügyfeleink kedvük szerint módosíthatnak.
             Kiváló szakembereink MINŐSÉGI munkát végeznek, minden elvárásuknak eleget téve, hogy otthonuk TÖKÉLETES legyen, és elégedett ügyfeleket tudhassunk magunkénak.
             
         </div>
-        <div class="col-7">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rz_hxPNkFbA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="col-lg-7">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/rz_hxPNkFbA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -20,7 +20,7 @@
 <div class="container mt-4">
 
     <div class="row">
-        <div class="col-5">
+        <div class="col-lg-6">
             <ul>
                 <li> <span class="felkov">Előkészítés:</span> Épület kitűzése. Sávalapok helyének földkiemelése gépi erővel kiegészítő kézi munkával, 0,4 m szélességben és 0,9 m mélységben. A lábazati falak közé tömörített töltésföld kerül, majd annak tetejére tömörített kavicsréteg </li>
                 <li> <span class="felkov">Alapozás:</span> 45x90 cm úsztatott sávalap, 6 db 12mm fővas, 8mm/33cm kengyel; 25x90 cm teraszoknál C12- 16KK betonnal Egyéb esetben egyedi statikai tervek alapján külön árajánlat készül az alapozásról.</li>
@@ -30,7 +30,7 @@
                 <li> <span class="felkov">Teherhordó falazat:</span> Porotherm  tégla, belső teherhordó szerkezetek vasbeton pillérvázból</li>
             </ul>
         </div>
-        <div class="col-5">
+        <div class="col-lg-6">
             <ul>
                 <li><span class="felkov"> Tetőszerkezet:</span> Ácsolt tető minőségi kivitelben</li>
                 <li><span class="felkov"> Tető héjazat:</span> Terran alap tetőcserép</li>
@@ -50,14 +50,14 @@
 
     <div class="row">
         
-        <div class="col-5">
+        <div class="col-lg-5">
             Az elkészült vázrajzhoz első lépésként pontos, a legapróbb részletekre is kitérő költségvetést készítünk, hogy a családi ház építésébe nyugodtan vághasson bele minden megrendelőnk! A házépítés az első és egyik legfontosabb lépése a pénzügyi lehetőségek pontos felmérése. A költségek ismeretében, amennyiben igényli, tapasztalt hitelügyintézőnk tud segítséget nyújtani abban, hogy felmérje a megrendelőnk anyagi kereteit, lehetőségeit, illetve igény esetén segítse őket a banki és egyéb hitelintézetek sokszor nem egyszerű világában eligazodni.
         </div>
-        <div class="col-7">
+        <div class="col-lg-7">
         <div style="text-align:center"> 
             <button class="btn btn-dark" onclick="playPause()">Play/Pause</button> 
             <br><br>
-            <video id="sajat_video" width="560" autoplay muted>
+            <video id="sajat_video" width="100%" autoplay muted>
                 <source src="./videos/sajat.mp4" type="video/mp4">
                 Az Ön böngészője nem támogatja a videót.
             </video>

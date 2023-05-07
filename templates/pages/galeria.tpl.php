@@ -47,22 +47,22 @@ if (isset($_POST['kuld'])) {
     }
 ?>
     <form action="" method="post" enctype="multipart/form-data" class="row mt-4">
-        <div class="col-4">
+        <div class="col-lg-4">
             <label>Első:
                 <input type="file" name="elso" required>
             </label>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4">
             <label>Második:
                 <input type="file" name="masodik">
             </label>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4">
             <label>Harmadik:
                 <input type="file" name="harmadik">
             </label>        
         </div>
-        <div class="col-3 text-center mt-4 mx-auto">
+        <div class="col-lg-3 text-center mt-4 mx-auto">
             <input type="submit" name="kuld" class="btn btn-primary w-100">
         </div>
       </form> 
@@ -76,7 +76,7 @@ if (isset($_POST['kuld'])) {
     foreach($kepek as $fajl => $datum)
     {
     ?>
-        <div class="kep col-4 text-center">
+        <div class="kep col-lg-4 text-center">
             <a href="<?php echo $MAPPA.$fajl ?>">
                 <img src="<?php echo $MAPPA.$fajl ?>">
             </a>            
