@@ -46,6 +46,10 @@ if (isset($_POST['kuld'])) {
         echo '</ul>';
     }
 ?>
+
+<?php 
+    if(isset($_SESSION["login"])){
+    echo'
     <form action="" method="post" enctype="multipart/form-data" class="row mt-4">
         <div class="col-lg-4">
             <label>Első:
@@ -66,7 +70,9 @@ if (isset($_POST['kuld'])) {
             <input type="submit" name="kuld" class="btn btn-primary w-100">
         </div>
       </form> 
-
+        ';
+    }
+?>
 
 <div id="galeria" class="mt-5 container">
     <h1 class="text-center mb-5">Galéria</h1>
